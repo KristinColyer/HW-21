@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topnav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #222;
+}
+.branding p {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.top-menu {
+  display: flex;
+}
+.top-menu a {
+  margin: 0 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+.top-menu a:hover {
+  border-bottom: 4px solid orange;
+}
+/*  For Mobile Screens  */
+
+@media screen and (max-width: 700px) {
+  .topnav {
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+  .top-menu {
+    display: block;
+    padding: 20px;
+  }
+  .top-menu p {
+    padding: 10px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-container {
+  position: relative;
+  min-height: 410px;
+  height: 5vh;
+  color: white;
+  background-color: black;
+}
+.hero-textt {
+  color: orange;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.flex-cont {
+  font-size: 40px;
+  min-height: 450px;
+  min-width: 200px;
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-container2 {
+  flex-direction: row;
+}
+.form-search{
+  margin: 0 auto;
+  text-align: center;
+
+  font: bold 13px sans-serif;
+   max-width: 50%;
+  position: relative;
+}
+
+.form-search input{
+  width: 60%;
+  box-sizing: border-box;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  background-color:  #ffffff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 15px 14px 40px;
+  border: 1px solid #b6c3cd;;
+  border-right: 0;
+  color:#4E565C;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.form-search button{
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color:  orange;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #ffffff;
+  padding: 15px 22px;
+  margin-left: -4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.form-search i{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 16px;
+  color: #80A3BD;
+}
+.zipcode-head {
+text-align: center;
+font-size: 30px;
+padding: 5%;
+}
+.hero {
+width: 100%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  background-color: orange;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer{
+  position:relative;
+  bottom: 0;
+  left: 0;
+  margin-top: 5%;
+  width: 100%;
+  background: #263238;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.icons{
+  padding-top: 1rem;
+}
+
+.icons a{
+  text-decoration: none;
+  font-size: 1.7rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name{
+  font-size: .8rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 500px){
+  html{
+      font-size: 50%;
+  }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+  html{
+  font-size: 50%;
+  }
+}  
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff50;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 1px solid rgba(100, 100, 100, 0.308);
+
+}
+
+.btn {
+  color: orange;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 115px;
+  font-weight: 540;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgb(255, 145, 0);
+  background: rgba(255, 255, 255, 0.829);
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(255, 153, 0);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: white;
+}
+
+.card_title {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 3.5%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 5px;
+}
+
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}  
